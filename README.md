@@ -105,4 +105,3 @@ Ensure you have the following installed:
    
 ## 🎯 Contribution
 Feel free to fork this repository, improve the projects, and submit pull requests!
-
