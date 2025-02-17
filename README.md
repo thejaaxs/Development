@@ -83,7 +83,7 @@ Ensure you have the following installed:
 - MongoDB (for backend projects)
 - Git
 - Any preferred code editor (VS Code recommended)
-- 
+ 
 ### Installation
 1. Clone the repository:
    ```sh
