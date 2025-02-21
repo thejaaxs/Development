@@ -1,4 +1,4 @@
-# Sigma Web Development Course 
+# Sigma Web Development Course
 
 Welcome to my learning journey through the **Sigma Web Development Course** by **CodeWithHarry**! 🚀 This course covers **HTML, CSS, and JavaScript** fundamentals, helping you build responsive and interactive websites.
 
