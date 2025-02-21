@@ -1,107 +1,67 @@
-# 🚀 Web Development Projects
+# Sigma Web Development Course 
 
-This repository contains a collection of web development projects ranging from beginner to advanced levels. These projects cover frontend, backend, and full-stack development using modern web technologies.
+Welcome to my learning journey through the **Sigma Web Development Course** by **CodeWithHarry**! 🚀 This course covers **HTML, CSS, and JavaScript** fundamentals, helping you build responsive and interactive websites.
 
-## 📌 Project List
+---
 
-### 🔰 Beginner Level
+## 📌 Course Overview
+This course is divided into multiple sections covering essential web development topics. Below is a breakdown of the tutorials:
 
-1. **Basic Portfolio Website**
-   - Tech Stack: HTML, CSS
-   - Features:
-     - Home, About, Projects, Contact sections
-     - Responsive design using CSS Flexbox/Grid
-     - Downloadable resume
+### 🔹 **HTML Basics**
+1. [Installing VS Code & How Websites Work](https://www.youtube.com/watch?v=videoID) *(28:31)*
+2. [Your First HTML Website](https://www.youtube.com/watch?v=videoID) *(11:12)*
+3. [Basic Structure of an HTML Website](https://www.youtube.com/watch?v=videoID) *(19:34)*
+4. [Headings, Paragraphs & Links](https://www.youtube.com/watch?v=videoID) *(18:20)*
+5. [Images, Lists, & Tables in HTML](https://www.youtube.com/watch?v=videoID) *(13:16)*
+6. [SEO & Core Web Vitals](https://www.youtube.com/watch?v=videoID) *(14:53)*
 
-2. **Interactive To-Do List**
-   - Tech Stack: HTML, CSS, JavaScript
-   - Features:
-     - Add, delete, and mark tasks as completed
-     - Store tasks in localStorage
+### 🔹 **Advanced HTML Topics**
+7. [Forms & Input Tags](https://www.youtube.com/watch?v=videoID) *(10:52)*
+8. [Inline & Block Elements](https://www.youtube.com/watch?v=videoID) *(10:57)*
+9. [ID & Classes](https://www.youtube.com/watch?v=videoID) *(14:48)*
+10. [Video, Audio & Media](https://www.youtube.com/watch?v=videoID) *(10:42)*
 
-3. **Simple Calculator**
-   - Tech Stack: HTML, CSS, JavaScript
-   - Features:
-     - Basic arithmetic operations (+, -, *, /)
-     - Error handling (e.g., division by zero)
+### 🔹 **CSS Fundamentals**
+11. [Introduction to CSS](https://www.youtube.com/watch?v=videoID) *(9:14)*
+12. [Inline, Internal & External CSS](https://www.youtube.com/watch?v=videoID) *(11:04)*
+13. [CSS Selectors MasterClass](https://www.youtube.com/watch?v=videoID) *(14:00)*
+14. [CSS Box Model](https://www.youtube.com/watch?v=videoID) *(17:41)*
+15. [Fonts, Text & Color Properties](https://www.youtube.com/watch?v=videoID) *(32:08)*
 
-### 🚀 Intermediate Level
+### 🔹 **CSS Layouts & Positioning**
+16. [CSS Display Property](https://www.youtube.com/watch?v=videoID) *(12:08)*
+17. [CSS Position Property](https://www.youtube.com/watch?v=videoID) *(24:05)*
+18. [CSS Flexbox - Ultimate MasterClass](https://www.youtube.com/watch?v=videoID) *(27:58)*
+19. [CSS Grid - Ultimate MasterClass](https://www.youtube.com/watch?v=videoID) *(32:12)*
 
-4. **Weather App**
-   - Tech Stack: HTML, CSS, JavaScript, OpenWeather API
-   - Features:
-     - Fetch real-time weather data from API
-     - Show temperature, humidity, wind speed
-     - Search by city name
+### 🔹 **CSS Animations & Effects**
+20. [CSS Transforms](https://www.youtube.com/watch?v=videoID) *(11:22)*
+21. [CSS Transitions](https://www.youtube.com/watch?v=videoID) *(13:33)*
+22. [CSS Animations](https://www.youtube.com/watch?v=videoID) *(17:57)*
+23. [CSS Filters](https://www.youtube.com/watch?v=videoID) *(9:06)*
 
-5. **Chat Application (Frontend Only)**
-   - Tech Stack: HTML, CSS, JavaScript
-   - Features:
-     - Messenger-style UI
-     - Simple messaging functionality (not stored yet)
+### 🔹 **JavaScript Basics**
+24. [Introduction to JavaScript & Installing Node.js](https://www.youtube.com/watch?v=videoID) *(20:23)*
 
-6. **Expense Tracker (Full Stack)**
-   - Tech Stack: HTML, CSS, JavaScript, Node.js, Express.js, MongoDB
-   - Features:
-     - Add expenses with categories
-     - Store and retrieve data from MongoDB
-     - Display total spending per month
+---
 
-### 🔥 Advanced Level
+## 🏆 **Projects & Exercises**
+Throughout the course, I will be working on various projects, such as:
+- 🎵 **Pure HTML Media Player**
+- 🎨 **CSS Challenge - Multi-Color Website**
+- 📱 **Netflix Clone using HTML & CSS**
+- 🛠 **JavaScript Projects (Coming Soon)**
 
-7. **Blog Website (MERN Stack)**
-   - Tech Stack: MongoDB, Express.js, React.js, Node.js
-   - Features:
-     - User authentication (Sign up, Login)
-     - Create, edit, and delete posts
-     - Store images in Cloudinary or Firebase
+---
 
-8. **Real-Time Chat App (Socket.io)**
-   - Tech Stack: Node.js, Express.js, WebSockets (Socket.io), MongoDB
-   - Features:
-     - Real-time messaging between users
-     - Online/offline status
+## 📚 **Resources**
+- [CodeWithHarry YouTube Channel](https://www.youtube.com/c/CodeWithHarry)
+- [MDN Web Docs](https://developer.mozilla.org/en-US/)
+- [W3Schools](https://www.w3schools.com/)
 
-9. **E-Commerce Website**
-   - Tech Stack: React.js, Node.js, Express.js, MongoDB, Stripe API
-   - Features:
-     - Product listing with search and filters
-     - Shopping cart & payment integration (Stripe/PayPal)
-     - Admin dashboard to add products
+---
 
-10. **AI-Powered Image Generator (Next.js + AI API)**
-   - Tech Stack: Next.js, OpenAI API, Tailwind CSS
-   - Features:
-     - Enter text prompt, generate AI image
-     - Save and download images
+## 📌 **Stay Connected**
+If you're also following this course, let's connect and learn together! Feel free to fork this repo, contribute, or ask questions. 😊
 
-## 🚀 Getting Started
-
-### Prerequisites
-Ensure you have the following installed:
-- Node.js & npm
-- MongoDB (for backend projects)
-- Git
-- Any preferred code editor (VS Code recommended)
- 
-### Installation
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/web-dev-projects.git
-   cd web-dev-projects
-   ```
-2. Navigate to a project directory:
-   ```sh
-   cd project-name
-   ```
-3. Install dependencies (if applicable):
-   ```sh
-   npm install
-   ```
-4. Run the project:
-   ```sh
-   npm start
-   ```
-   
-## 🎯 Contribution
-Feel free to fork this repository, improve the projects, and submit pull requests!
+A Big Thanks to - CodeWithHarry 💻🚀
