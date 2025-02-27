@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Gallery</title>
+    <meta name="description" content="This page consists of the Media with all types of Content">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .category {
+            margin-bottom: 20px;
+        }
+
+        iframe {
+            width: 560px;
+            height: 315px;
+            margin: 10px;
+        }
+
+        audio {
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Media Gallery</h1>
+
+    <div class="category">
+        <h2>Technology Videos</h2>
+        <iframe src="https://www.youtube.com/embed/X8BYu3dMKf0" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/k2DSi1zGEc8" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="category">
+        <h2>Music Videos</h2>
+        <iframe src="https://www.youtube.com/embed/gkds6yVdDLI" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/0pWsCiBvLOk" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="category">
+        <h2>Podcasts</h2>
+        <audio controls>
+            <source src="https://www.example.com/audio1.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+        <audio controls>
+            <source src="https://www.example.com/audio2.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+    </div>
+</body>
+
+</html>
