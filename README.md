@@ -1,21 +1,27 @@
-# Welcome to the Sigma Web Development Course! 🗿
+# 🚀 Development Roadmap !
 
-## 📚 About this Playlist:
-Are you interested in learning web development?. Look no further! This course is designed to take you from **beginner to pro**, one step at a time.
+## 🔹 Phase 1: Fundamentals (Weeks 1-3)
+### ✅ Goal: Build a strong foundation in Web Development & JavaScript.
+- **Frontend**: HTML, CSS, JS (ES6+), TypeScript transition.
+- **Backend**: Node.js, Express.js, SQL (PostgreSQL), NoSQL (MongoDB).
+- **Milestones**:
+  - Build & deploy 2-3 small projects.
+  - Set up a REST API.
 
-## 👨‍💻 Who is this for?
-- Beginners who want to dive into web development
-- Intermediate developers looking to sharpen their skills
+## 🔹 Phase 2: Full-Stack Development (Weeks 4-7)
+### ✅ Goal: Deep dive into MERN stack & real-world applications.
+- **Backend**: Express.js, Prisma, Microservices, Caching (Redis), Serverless.
+- **Frontend**: React.js, Next.js (SSR, API routes), Tailwind CSS, Auth (NextAuth.js).
+- **Milestones**:
+  - Deploy a full-stack app.
+  - Implement authentication.
 
-## 🛠️ What Will You Learn?
-- HTML, CSS, and JavaScript Basics
-- Front-end and Back-end Development
-- Database Integration
-- Real-world Projects
-- And much more!
+## 🔹 Phase 3: DevOps & System Design (Weeks 8-10)
+### ✅ Goal: Master deployment, scaling & performance.
+- **DevOps**: Docker, AWS (EC2, S3, CloudFront), Nginx.
+- **System Design**: Load balancing, Proxies (Kafka, RabbitMQ), WebSockets.
+- **Milestones**:
+  - Deploy using Docker + AWS.
+  - Implement WebSockets in a chat app.
 
-## A Big Thanks To Code With Harry !
-- Link of the Course : https://www.youtube.com/playlist?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w
----
-
-🚀 Happy Learning! 🎯
+# Thanks to YouTube & Tech Content Creators !
