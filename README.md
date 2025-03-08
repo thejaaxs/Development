@@ -15,7 +15,7 @@
 - **Milestones**:
   - Deploy a full-stack app.
   - Implement authentication.
-
+  
 ## 🔹 Phase 3: DevOps & System Design (Weeks 8-10)
 ### ✅ Goal: Master deployment, scaling & performance.
 - **DevOps**: Docker, AWS (EC2, S3, CloudFront), Nginx.
@@ -23,5 +23,5 @@
 - **Milestones**:
   - Deploy using Docker + AWS.
   - Implement WebSockets in a chat app.
-  
+
 # Thanks to YouTube & Tech Content Creators !
