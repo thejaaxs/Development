@@ -8,7 +8,7 @@
   - Build & deploy 2-3 small projects.
   - Set up a REST API.
 
-## 🔹 Phase 2: Full-Stack Development (Weeks 4-7)
+## 🔹 Phase 2: Full-Stack Development (Weeks)
 ### ✅ Goal: Deep dive into MERN stack & real-world applications.
 - **Backend**: Express.js, Prisma, Microservices, Caching (Redis), Serverless.
 - **Frontend**: React.js, Next.js (SSR, API routes), Tailwind CSS, Auth (NextAuth.js).
