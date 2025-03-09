@@ -12,7 +12,7 @@
 ### ✅ Goal: Deep dive into MERN stack & real-world applications.
 - **Backend**: Express.js, Prisma, Microservices, Caching (Redis), Serverless.
 - **Frontend**: React.js, Next.js (SSR, API routes), Tailwind CSS, Auth (NextAuth.js).
-- **Milestones**:
+- **Milestones**
   - Deploy a full-stack app.
   - Implement authentication.
   
