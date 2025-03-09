@@ -3,12 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS Boxmodel</title>
     <style>
-
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        .box{
+            background-color:aqua;
+        }
+        .box1{
+            color:yellow;
+            padding:10px;
+            border:2px solid blue;
+            margin:25px;
+            height:200px;
+            box-sizing:border-box;
+        }
+        .box2{
+            color:red;
+            margin:25px;
+            height:200px;
+            box-sizing:border-box;
+            padding:10px;
+            border:2px solid blue;
+        }
     </style>
 </head>
 <body>
-    <div class="id">I am a Box !</div>
+    <div class="box box1">I am a Box !</div>
+    <div class="box box2">I am another Box !</div>
 </body>
 </html>
