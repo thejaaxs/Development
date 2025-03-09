@@ -4,7 +4,7 @@
 ### ✅ Goal: Build a strong foundation in Web Development & JavaScript.
 - **Frontend**: HTML, CSS, JS (ES6+), TypeScript transition.
 - **Backend**: Node.js, Express.js, SQL (PostgreSQL), NoSQL (MongoDB).
-- **Milestones**:
+- **Milestones**
   - Build & deploy 2-3 small projects.
   - Set up a REST API.
 
