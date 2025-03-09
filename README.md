@@ -16,7 +16,7 @@
   - Deploy a full-stack app.
   - Implement authentication.
   
-## 🔹 Phase 3: DevOps & System Design (Weeks 8-10)
+## 🔹 Phase 3: DevOps & System Design
 ### ✅ Goal: Master deployment, scaling & performance.
 - **DevOps**: Docker, AWS (EC2, S3, CloudFront), Nginx.
 - **System Design**: Load balancing, Proxies (Kafka, RabbitMQ), WebSockets.
