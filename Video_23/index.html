@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>CSS Display Property !</title>
+        <meta name="description" content="Contains the CSS display Property !">
+        <style>
+            *{
+                margin:0px;
+                padding:0px;
+            }
+            .box{
+                border:2px solid blue;  
+                /* display:inline; */   /*Does not support top margin & padding !*/
+                /* display:inline-block; Use inline block ! */
+                width:300px;
+                padding:45px;
+                margin:35px;
+                /* display:inline-flex; */
+                display:grid;
+                justify-content:center;
+            }
+            .box1{
+                /* display:none; */
+                /* visibility:hidden; */
+                /* display:flex; */
+                display:inline-flex;
+                justify-content:center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box box1">
+            I am a Box !
+        </div>
+        <div class="box">Also a Nice Box !</div>
+        <span>I am Good </span>
+        <span>Boy !</span>
+    </body>
+</html>
