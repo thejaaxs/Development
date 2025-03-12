@@ -15,7 +15,7 @@
 - **Milestones**
   - Deploy a full-stack app.
   - Implement authentication.
-  
+
 ## 🔹 Phase 3: DevOps & System Design
 ### ✅ Goal: Master deployment, scaling & performance.
 - **DevOps**: Docker, AWS (EC2, S3, CloudFront), Nginx.
