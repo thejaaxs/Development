@@ -8,22 +8,37 @@
     <meta name="description" content="Contains the CSS Variables">
     <style>
         /* div :first-child{ */
+        :root{
+            --color:blue;
+            --seccolor:greenyellow;
+            --defpad:30px;
+            --defop:0.3;
+        }
         *{
             margin:0px;
             padding:0px;
         }
         .nav{
-            background-color: rgb(22, 237, 112);
+            /* background-color: rgb(22, 237, 112); */
+            background-color:var(--color);
         }
         .container{
-            background-color:rgb(172,243,201);
+            /* background-color:rgb(172,243,201); */
+            background-color:var(--seccolor);
         }
         ul{
             display:flex;
         }
+        ul li:first-child{
+            --color:rgb(138,164,99);
+            background-color:var(--color,orange);
+        }
         ul li{
+            opacity:var(--defop);
             list-style:none;
-            padding:30px;
+            /* padding:30px; */
+            padding:var(--defpad);
+            border:2px solid var(--seccolor);
         }
     </style>
 </head>
