@@ -24,4 +24,4 @@
   - Deploy using Docker + AWS.
   - Implement WebSockets in a chat app.
 
-# Thanks to YouTubers & Tech Content Creators
+# Thanks to YouTubers & Tech Content Creators !
