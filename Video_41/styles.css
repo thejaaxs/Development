@@ -10,10 +10,11 @@
     height: 30vh;
     /* to apply transition */
     /* Learn the four properties first ! */
-    transition-property: transform;
+    /* transition-property: transform;
     transition-duration: 3s;
     transition-timing-function: ease-in-out;
-    transition-delay: 1s;
+    transition-delay: 1s; */
+    /* Can use the single property instead of four */
 }
 
 .translate {
