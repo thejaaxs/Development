@@ -1,6 +1,13 @@
 .container{
     background-color:red;
+    width:50vw;
+    height:40vw;
 }
 .box{
     background-color:aqua;
+    width:20vw;
+    height:30vh;
+}
+.translate{
+    transform:translateX(10vw) translateY(10vh);
 }
