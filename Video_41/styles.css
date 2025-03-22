@@ -1,13 +1,21 @@
-.container{
-    background-color:red;
-    width:50vw;
-    height:40vw;
+.container {
+    background-color: red;
+    width: 50vw;
+    height: 40vw;
 }
-.box{
-    background-color:aqua;
-    width:20vw;
-    height:30vh;
+
+.box {
+    background-color: aqua;
+    width: 20vw;
+    height: 30vh;
+    /* to apply transition */
+    /* Learn the four properties first ! */
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
 }
-.translate{
-    transform:translateX(10vw) translateY(10vh);
+
+.translate {
+    transform: translateX(10vw) translateY(10vh);
 }
