@@ -1,0 +1,32 @@
+.container{
+    background-color:blueviolet;
+    height:80vh;
+    width:35vw;
+}
+.box{
+    background-color: aqua;
+    height:45px;
+    width:35px;
+    /* Name of the animation to be done ! */
+    animation-name:identifier; 
+    /* How much time to animate */
+    animation-duration:3s;
+    /* Number of iterations */
+    /* animation-iteration-count:2; */
+    animation-iteration-count:infinite;
+    animation-timing-function:ease-out;
+    /* Delay after 10 seconds */
+    animation-delay:1s;
+    /* For direcion */
+    /* animation-direction:alternate; */
+    /* animation-direction:reverse; */
+    animation-direction:alternate-reverse;
+}
+@keyframes identifier{
+    from{
+
+    }
+    to{
+        transform:translateX(1000px);
+    }
+}
