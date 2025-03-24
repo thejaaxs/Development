@@ -1,32 +1,58 @@
-.container{
-    background-color:blueviolet;
-    height:80vh;
-    width:35vw;
+.container {
+    background-color: blueviolet;
+    height: 80vh;
+    width: 35vw;
 }
-.box{
+
+.box {
     background-color: aqua;
-    height:45px;
-    width:35px;
+    height: 45px;
+    width: 35px;
     /* Name of the animation to be done ! */
-    animation-name:identifier; 
+    /* animation-name:identifier;  */
     /* How much time to animate */
-    animation-duration:3s;
+    /* animation-duration:3s; */
     /* Number of iterations */
     /* animation-iteration-count:2; */
-    animation-iteration-count:infinite;
-    animation-timing-function:ease-out;
+    /* animation-iteration-count:infinite; */
+    /* animation-timing-function:ease-out; */
     /* Delay after 10 seconds */
-    animation-delay:1s;
+    /* animation-delay:1s; */
     /* For direcion */
     /* animation-direction:alternate; */
     /* animation-direction:reverse; */
-    animation-direction:alternate-reverse;
-}
-@keyframes identifier{
-    from{
+    /* animation-direction:alternate-reverse; */
+    /* Causes Pausing ! */
+    /* animation-play-state:paused; */
 
+    /* All in One !*/
+    /* animation: identifier 1s ease-in-out 2s 1 forwards ; */
+    animation: identifier 1s ease-in-out 2s 10 backwards,
+        Thejas2 2s ease-in 2s 5;
+}
+
+@keyframes identifier {
+    from {
+        background-color: red;
     }
-    to{
-        transform:translateX(1000px);
+
+    to {
+        background-color: yellow;
+        transform: translateX(1000px);
+    }
+}
+
+/* Multiple Animations */
+@keyframes Thejas2 {
+    0% {
+        transform: rotate(100deg);
+    }
+
+    20% {
+        transform: rotate(200deg);
+    }
+
+    50% {
+        transform: rotate(300deg);
     }
 }
