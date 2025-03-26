@@ -1,0 +1,19 @@
+/* img{
+    filter:blur(10px);
+} */
+
+.img1 {
+    /* Brightness in Percentage */
+    filter: brightness(120%) contrast(1200%);
+}
+
+.img2 {
+    /* filter:grayscale(100%); */
+    filter: sepia(100%);
+}
+
+.img3 {
+    /* To negative (0 To 1) */
+    /* Opcaity fades the pic ! */
+    filter: invert(1) opacity(0.5);
+}
