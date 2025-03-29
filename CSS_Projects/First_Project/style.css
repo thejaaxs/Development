@@ -1,7 +1,16 @@
-button{
+body{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    align-items:center;
+    height:80vh;
+    background-color:#f4f4f4;
+}
+    button{
     padding:10px 15px;
     font-size:15px;
     border:none;
+    transition:all 0.3s ease-in-out;
     cursor:pointer;
 }
 .rounded {
