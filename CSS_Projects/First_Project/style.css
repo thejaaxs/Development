@@ -1,0 +1,10 @@
+button{
+    padding:10px 15px;
+    font-size:16px;
+    border:none;
+}
+.rounded {
+    border-radius:10px;
+    background-color:#007bff;
+    color:white;
+}
