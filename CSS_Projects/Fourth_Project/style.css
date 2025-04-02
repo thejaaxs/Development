@@ -15,5 +15,12 @@ body {
     background: linear-gradient(45deg, #ff416c, #ff4b2b);
     border: none;
     text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(255, 65, 108, 0.5);
+    transition: 0.3s ease-in-out;
+}
 
+.gradient-button:hover {
+    background: linear-gradient(45deg, #ff4b2b, #ff416c);
+    transform: scale(1.05);
 }
