@@ -40,8 +40,8 @@ h1 {
     }
 }
 
-@media (max-width:450px) {
+@media (max-width:480px) {
     .gallery {
-        grid-template-columns: repeat(1fr);
+        grid-template-columns: 1fr;
     }
 }
