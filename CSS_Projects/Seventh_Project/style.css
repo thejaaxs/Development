@@ -20,16 +20,28 @@ h1 {
     grid-template-columns: repeat(3, 1fr);
     max-width: 980px;
     gap: 10px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .gallery img {
     border-radius: 10px;
     width: 100%;
     height: auto;
-    transition:transform 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 .gallery img:hover {
     transform: scale(1.05);
+}
+
+@media (max-width:768px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:450px) {
+    .gallery {
+        grid-template-columns: repeat(1fr);
+    }
 }
