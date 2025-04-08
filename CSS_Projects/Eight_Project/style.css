@@ -1,5 +1,14 @@
 * {
     margin: 0px;
-    box-sizing:border-box;
+    box-sizing: border-box;
     padding: 0px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    background-color: #f2f2f2;
+    font-family: arial, sans-serif;
 }
