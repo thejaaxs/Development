@@ -50,6 +50,6 @@ body {
 
 .faq-question::after {
     content: "▼";
-    position:absolute;
-    right:0rem;
+    position: absolute;
+    right: 0rem;
 }
