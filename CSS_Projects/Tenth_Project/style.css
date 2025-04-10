@@ -30,9 +30,26 @@ body {
     overflow: hidden;
     max-height: 0px;
     padding: 0 1.5rem;
-    transition: max-height 0.3s ease, padding 0.3s ease;
+    transition: max-height 0.3s ease, padding-top 0.3s ease, padding-bottom 0.3s ease;
 }
 
 .faq-item input {
     display: none;
+}
+
+.faq-item input:checked~.faq-answer {
+    max-height: 1000px;
+    padding: 1rem 1.5rem;
+}
+
+.faq-item input:checked~.faq-question::after {
+    content: "▲";
+    position: absolute;
+    right: 0rem;
+}
+
+.faq-question::after {
+    content: "▼";
+    position:absolute;
+    right:0rem;
 }
