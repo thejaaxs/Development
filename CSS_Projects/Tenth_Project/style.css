@@ -21,4 +21,18 @@ body {
     background: #e3f2fd;
     padding: 1rem 1.5rem;
     cursor: pointer;
+    position: relative;
+    font-weight: bold;
+}
+
+.faq-answer {
+    background: #ffffff;
+    overflow: hidden;
+    max-height: 0px;
+    padding: 0 1.5rem;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.faq-item input {
+    display: none;
 }
