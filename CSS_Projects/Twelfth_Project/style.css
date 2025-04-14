@@ -1,43 +1,52 @@
-*{
-    margin:0px;
-    padding:0px;
+* {
+    margin: 0px;
+    padding: 0px;
 }
-body,html{
-    height:100%;
-    font-family:'Arial',sans-serif;
+
+body,
+html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
 }
-.parallax{
-    display:flex;
-    height:100vh;
-    position:relative;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-    background-attachment:fixed;
-    justify-content:center;
-    align-items:center;
+
+.parallax {
+    display: flex;
+    height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
 }
-.parallax-1{
-    background-image:url('https://source.unsplash.com/1600x900/?nature,water');
+
+.parallax-1 {
+    background-image: url('https://source.unsplash.com/1600x900/?nature,water');
 }
-.parallax-2{
-    background-image:url('https://source.unsplash.com/1600x900/?nature,water');
+
+.parallax-2 {
+    background-image: url('https://source.unsplash.com/1600x900/?nature,water');
 }
-.parallax-3{
-    background-image:url('https://source.unsplash.com/1600x900/?nature,water');
+
+.parallax-3 {
+    background-image: url('https://source.unsplash.com/1600x900/?nature,water');
 }
-.overlay{
-    color:white;
-    background:rgba(0,0,0,0.5);
-    padding:40px;
-    border-radius:10px;
-    text-align:center;
+
+.overlay {
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
 }
-.content{
-    text-align:center;
-    padding:60px 20px;
-    background-color:#f4f4f4;
+
+.content {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f4f4f4;
 }
-.content h2{
-    margin-bottom:20px;
+
+.content h2 {
+    margin-bottom: 20px;
 }
