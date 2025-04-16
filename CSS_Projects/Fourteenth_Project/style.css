@@ -32,21 +32,33 @@ nav {
     text-decoration: none;
     color: white;
 }
-main{
-    padding:1rem;
+
+main {
+    padding: 1rem;
 }
-#hero{
-    background:#f4f4f4;
-    padding:2rem;
-    text-align:center;
+
+#hero {
+    background: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
 }
-.project-grid{
-    display:grid;
-    gap:1rem;   
+
+.project-grid {
+    display: grid;
+    gap: 1rem;
 }
-.project-card{
-    background:#eaeaea;
-    border-radius:5px;
-    padding:1rem;
-    text-align:center;
+
+.project-card {
+    background: #eaeaea;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
 }
