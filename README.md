@@ -14,7 +14,7 @@
 - **Frontend**: React.js, Next.js (SSR, API routes), Tailwind CSS, Auth (NextAuth.js).
 - **Milestones**
   - Deploy a full-stack app.
-  - Implement authentication.
+  - Implement authentication. 
 
 ## 🔹 Phase 3: DevOps & System Design
 ### ✅ Goal: Master deployment, scaling & performance.
