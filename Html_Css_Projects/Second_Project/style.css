@@ -2,14 +2,21 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
-.nav{
+
+.nav {
     background-color: #333;
-    padding:15px;
+    padding: 15px;
 }
+
 .nav a {
-    display:inline-block;
-    font-size:18px;
-    color:white;
-    text-decoration : none;
-    padding:10px 20px;
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.nav a:hover {
+    background-color: #555;
 }
