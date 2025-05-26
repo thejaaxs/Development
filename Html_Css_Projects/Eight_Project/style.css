@@ -46,3 +46,11 @@ footer{
     padding:20px;
     text-align:center;
 }
+@media (max-width:768px){
+    .features{
+        grid-template-columns:1fr;
+    }
+    .hero h1{
+        font-size:28px;
+    }
+}
