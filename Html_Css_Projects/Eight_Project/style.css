@@ -40,17 +40,20 @@ body {
     border-radius: 8px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
-footer{
-    background-color:#343a40;
-    color:white;
-    padding:20px;
-    text-align:center;
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
-@media (max-width:768px){
-    .features{
-        grid-template-columns:1fr;
+
+@media (max-width:768px) {
+    .features {
+        grid-template-columns: 1fr;
     }
-    .hero h1{
-        font-size:28px;
+
+    .hero h1 {
+        font-size: 28px;
     }
 }
