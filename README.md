@@ -7,7 +7,7 @@
 - **Milestones**
   - Build & deploy 2-3 small projects.  
   - Set up a REST API. 
-
+ 
 ## 🔹 Phase 2: Full-Stack Development
 ### ✅ Goal: Deep dive into MERN stack & real-world applications~
 - **Backend**: Express.js, Prisma, Microservices, Caching (Redis), Serverless.
