@@ -25,3 +25,16 @@ body {
 .sidebar a:hover{
     background-color:#495057;
 }
+.header{
+    background-color:#f8f9fa;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom: 1px solid #ddd;
+}
+.content{
+    background-color:#e9ecef;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+}
