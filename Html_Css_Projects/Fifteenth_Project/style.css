@@ -43,9 +43,10 @@ body {
 }
 
 .lightbox img {
-    max-height: 90%;
-    max-width: 90%;
+    max-height: 50%;
+    max-width: 50%;
     border-radius: 10px;
+    object-fit: cover;
 }
 
 .lightbox:target {
