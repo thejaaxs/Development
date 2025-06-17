@@ -34,3 +34,28 @@ do {
     console.log(n);
     n++;
 } while (n <= 5);
+
+// For of Loop  ( Used in Arrays , Strings , Objects )
+
+let fruits = ["Banana", "Apple", "Grapes"];
+
+for (let fruit of fruits) {
+    console.log(fruit);
+}
+
+let name = "Rahim";
+for(let char of name){
+    console.log(char);
+}
+
+// For in ( Used in Objects )
+
+let person = {
+    name:"Thejas",
+    age : 21,
+    city:"Mangalore"
+};  
+
+for(let key in person){
+    console.log(key+" : "+person[key]);
+}
