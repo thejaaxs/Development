@@ -9,15 +9,17 @@ let student = {
     marks: 100
 };
 let message;
-if (student.marks >= 40 && student.marks <= 100) message = "Pass";
-else message = "Fail";
+if (student.marks >= 40 && student.marks <= 100)
+    message = "Pass";
+else
+    message = "Fail";
 console.log(message);
 
 let std = {
     name: "Thejas",
     isAdmin: true
 };
-if (std.isAdmin) {
+if (std.isAdmin)
     console.log("Welcome Admin !");
-}
-else console.log("Welcome User !");
+else
+    console.log("Welcome User !");
