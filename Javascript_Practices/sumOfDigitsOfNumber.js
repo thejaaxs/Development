@@ -23,3 +23,15 @@ function sumOfDigits(n) {
     return sum1;
 }
 console.log("Sum : " + sumOfDigits(123456789));
+
+// Using Functions and only calling function Name 
+
+function sumOfDigit(n1) {
+    let sum2 = 0, original = n1;
+    while (n1 != 0) {
+        sum2 += (n1 % 10);
+        n1 = Math.floor(n1 / 10);
+    }
+    console.log(`Sum of ${original} : ${sum2}`);
+}
+sumOfDigit(123456);
