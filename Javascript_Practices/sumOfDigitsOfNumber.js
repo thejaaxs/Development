@@ -34,4 +34,4 @@ function sumOfDigit(n1) {
     }
     console.log(`Sum of ${original} : ${sum2}`);
 }
-sumOfDigit(123456);
+sumOfDigit(123456); 
