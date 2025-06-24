@@ -11,5 +11,5 @@ function firstNonRepeatingCharacter(str) {
         if (value === 1) return key;
     }
     return null;
-}
+} 
 console.log(firstNonRepeatingCharacter("aabbssbbsf"));
