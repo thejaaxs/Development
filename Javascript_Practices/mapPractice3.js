@@ -26,4 +26,4 @@ function topKFrequentElements(nums, k) {
     const sorted = Array.from(map.entries()).sort((a, b) => b[1] - a[1]);
     return sorted.slice(0, k).map(([num]) => num);
 }
-console.log(topKFrequentElements([1, 1, 1, 2, 2, 3], 2));
+console.log(topKFrequentElements([1, 1, 1, 2, 2, 3, 3, 3, 3], 3));
