@@ -56,3 +56,11 @@ function countVowel(str) {
     return (str.match(/[aeiou]/gi) || []).length;
 }
 console.log(countVowel("Interview"));
+
+// Capitalize the First Letter Of Alphabet 
+
+function capitalizeFirstAlphabet(str) {
+    return str.split(' ').map(word => word[0].toUpperCase() + word.slice(1)).join(' ');
+}
+console.log(capitalizeFirstAlphabet("hello world !"));
+
