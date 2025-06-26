@@ -16,7 +16,7 @@ function checkDuplicates(arr) {
     for (let num of arr) {
         if (seen.has(num)) return true;
         seen.set(num, true);
-    }
+    } 
     return false;
 }
 console.log(checkDuplicates([1, 2, 2, 3, 4, 5]));
