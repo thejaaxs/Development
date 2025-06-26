@@ -72,3 +72,12 @@ function checkAnagrams(str1, str2) {
 }
 console.log(checkAnagrams("Listen", "siLent"));
 
+// Find the First Non Repeating Character
+
+function firstNonRepeatingCharacter(str) {
+    for (let ch of str) {
+        if (str.indexOf(ch) === str.lastIndexOf(ch)) return ch;
+    }
+    return null;
+}
+console.log("First Non Repeating : " + firstNonRepeatingCharacter("aabbccddef"));
