@@ -64,3 +64,11 @@ function capitalizeFirstAlphabet(str) {
 }
 console.log(capitalizeFirstAlphabet("hello world !"));
 
+// Check Anagrams 
+
+function checkAnagrams(str1, str2) {
+    let normal = s => s.toLowerCase().replace(/[^a-z]/g, '').split('').sort().join('');
+    return normal(str1) === normal(str2);
+}
+console.log(checkAnagrams("Listen", "siLent"));
+
