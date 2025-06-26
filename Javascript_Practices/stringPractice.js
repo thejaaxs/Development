@@ -29,3 +29,24 @@ function reverseString(str) {
     return str.split('').reverse().join('');
 }
 console.log(`Reverse : ` + reverseString("Hello"));
+
+// Check Palindrome 
+
+function checkPalindrome(str) {
+    let clear = str.toLowerCase().replace(/[^a-z0-9]/g, '');
+    return clear === clear.split('').reverse().join('');
+}
+console.log("Palindrome : " + checkPalindrome("A man, a plan, a canal: Panama"));
+
+// Count Vowels in a String
+
+function countVowels(str) {
+    const vowel = "aeiouAEIOU";
+    let count = 0;
+    for (let ch of str) {
+        if (vowel.includes(ch)) count++;
+    }
+    return count;
+}
+console.log(countVowels("Interview"));
+
