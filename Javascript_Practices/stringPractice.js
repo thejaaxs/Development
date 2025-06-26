@@ -50,3 +50,9 @@ function countVowels(str) {
 }
 console.log(countVowels("Interview"));
 
+// Other Method 
+
+function countVowel(str) {
+    return (str.match(/[aeiou]/gi) || []).length;
+}
+console.log(countVowel("Interview"));
