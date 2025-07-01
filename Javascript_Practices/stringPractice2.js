@@ -19,4 +19,4 @@ console.log("Compressed : " + compress("aabbeeccddd"));
 function longestWordInSentence(sentence) {
     return sentence.split(' ').reduce((longest, word) => word.length > longest.length ? word : longest)
 }
-console.log("Longest Word : " + longestWordInSentence("I am Learning Javascript !"));
+console.log("Longest Word : " + longestWordInSentence("I am Learning Javascript !")); 
