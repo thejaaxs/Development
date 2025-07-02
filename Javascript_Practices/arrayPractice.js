@@ -62,3 +62,51 @@ console.log(evens);
 let sum = nums.reduce((a, b) => a + b);
 console.log(sum);
 nums.forEach(n => console.log(n));
+
+// Print all elements
+
+function printAllElements(arr) {
+    arr.forEach(n => console.log(n));
+}
+printAllElements(["Name", "Is", "Alice"]);
+
+// Find the largest number
+
+function largestElement(arr) {
+    let max = arr[0];
+    arr.forEach(n => {
+        if (n > max) max = n;
+    });
+    return max;
+}
+console.log(largestElement([4, 10, 2, 99, 23]));
+
+// Count how many times each number appears
+
+function countElementAppears(arr) {
+    let freq = {};
+    arr.forEach(n => {
+        freq[n] = (freq[n] || 0) + 1;
+    });
+    return freq;
+}
+console.log(countElementAppears([1, 2, 2, 3, 1, 1]));
+
+// Reverse an array
+
+function reverseArray(arr) {
+    return arr.reverse();
+}
+console.log(reverseArray([1, 2, 3, 4, 5]));
+
+// 2 Method 
+
+function reverseArray2(arr) {
+    for (let i = 0; i <= arr.length / 2; i++) {
+        let temp = arr[i];
+        arr[i] = arr[arr.length - i - 1];
+        arr[arr.length - i - 1] = temp;
+    }
+    return arr;
+}
+console.log(reverseArray2([1, 2, 3, 4, 5]));
