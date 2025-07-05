@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>DOM Practice</title>
+    <meta name="description" content="Contains the Javascript DOM Practices">
+</head>
+
+<body>
+    <div id="parent">
+        <p class="child">Child 1</p>
+        <p class="child">Child 2</p>
+    </div>
+    <script>
+        const title = document.getElementById("parent");
+        console.log(title);
+
+        const items = document.getElementsByClassName("child");
+        console.log(items);
+
+        const paragraphs = document.getElementsByTagName("p");
+        console.log(paragraphs);
+
+        const firstName = document.querySelector(".child");
+        console.log(firstName);
+
+        const container = document.querySelector("#parent");
+        console.log(container);
+
+        const allItems = document.querySelectorAll(".item");
+        allItems.forEach(a => {
+            console.log(a);
+        })
+
+        // Parent
+        const child = document.querySelector(".child");
+        const parent = child.parentElement;
+
+        // Child 
+        const parents = document.getElementById("parent");
+        const children = parents.children;
+
+        // First & Last Child
+        const first = parent.firstElementChild;
+        const last = parent.lastElementChild;
+
+        // Next/Previous Sibling
+
+        const next = child.nexElementSibling;
+        const previous = child.previousElementSibling;
+        
+    </script>
+</body>
+
+</html>
