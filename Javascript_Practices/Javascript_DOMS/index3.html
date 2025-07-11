@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Highlight All Elements with a Specific Class</title>
+</head>
+
+<body>
+    <p class="highlight">First</p>
+    <p class="highlight">Second</p>
+    <p>Third</p>
+    <script>
+        const highlighted = document.querySelectorAll(".highlight");
+        highlighted.forEach(p => {
+            p.style.backgroundColor = "yellow";
+        })
+    </script>
+</body>
+
+</html>
