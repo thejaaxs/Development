@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print All Items In a List</title>
+</head>
+
+<body>
+    <ul id="colors">
+        <li>Red</li>
+        <li>Green</li>
+        <li>Blue</li>
+    </ul>
+    <script>
+        const list = document.getElementById("colors");
+        for (let item of list.children) {
+            console.log(item.textContent);
+        }
+    </script>
+</body>
+
+</html>
