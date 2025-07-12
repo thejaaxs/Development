@@ -15,3 +15,5 @@
 - **Milestones**  
   - Deploy a full-stack app.
   - Implement authentication.
+ 
+# Thanks to YouTubers & Tech Content Creators
