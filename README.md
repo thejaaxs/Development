@@ -14,12 +14,6 @@
 - **Frontend**: React.js, Next.js (SSR, API routes), Tailwind CSS, Auth (NextAuth.js).
 - **Milestones**  
   - Deploy a full-stack app.
-  - Implement authentication. 
-
-## 🔹 Phase 3: DevOps & System Design
-### ✅ Goal: Master deployment, scaling & performance.
-- **DevOps**: Docker, AWS (EC2, S3, CloudFront), Nginx.
-- **System Design**: Load balancing, Proxies (Kafka, RabbitMQ), WebSockets.
-- **Milestones**:
-  - Deploy using Docker + AWS.
-  - Implement WebSockets in a chat app.
+  - Implement authentication.
+ 
+### Thanks To 
