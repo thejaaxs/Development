@@ -16,4 +16,4 @@
   - Deploy a full-stack app.
   - Implement authentication.
  
-# Thanks to YouTubers & Tech Content Creators
+# Thanks to Sigma Web Development Course
