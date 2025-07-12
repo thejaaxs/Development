@@ -15,5 +15,3 @@
 - **Milestones**  
   - Deploy a full-stack app.
   - Implement authentication.
- 
-### Thanks To 
