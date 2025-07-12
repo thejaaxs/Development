@@ -22,6 +22,4 @@
 - **System Design**: Load balancing, Proxies (Kafka, RabbitMQ), WebSockets.
 - **Milestones**:
   - Deploy using Docker + AWS.
-  - Implement WebSockets in a chat app. 
-
-# Thanks to YouTubers & Tech Content Creators
+  - Implement WebSockets in a chat app.
