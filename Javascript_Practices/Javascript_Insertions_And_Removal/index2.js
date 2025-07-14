@@ -33,3 +33,27 @@ function insertElementInSortedArray(arr, value) {
     return arr;
 }
 console.log(insertElementInSortedArray([10, 20, 30], 25));
+
+// Custom Stack Implementation
+class Stack {
+    constructor() {
+        this.items = [];
+    }
+    push(item) {
+        this.items.push(item);
+    }
+    pop() {
+        return this.items.pop();
+    }
+    peek() {
+        return this.items[this.items.length - 1];
+    }
+    isEmpty() {
+        return this.items.length === 0;
+    }
+}
+const stack = new Stack();
+stack.push(10);
+stack.push(20);
+console.log(stack.pop());
+console.log(stack.peek());
