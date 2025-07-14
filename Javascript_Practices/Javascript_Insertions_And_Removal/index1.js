@@ -38,7 +38,7 @@ console.log(arr1); // Only keeps the non even ( Odd ) Numbers
 
 function insertElement(arr, index, element) {
     arr.splice(index, 0, element)
-    return arr
+    return arr 
 }
 console.log(insertElement([0, 1, 2, 4], 3, 3));
 
