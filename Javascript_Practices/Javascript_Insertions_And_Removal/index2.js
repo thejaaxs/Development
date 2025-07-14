@@ -12,7 +12,7 @@ console.log(insertAtIndex([10, 20, 30], 1, 15));
 
 // Remove All Duplicates from Array
 
-function removeDuplicates(arr) {
+function removeDuplicates(arr) { 
     return [...new Set(arr)];
 }
 console.log(removeDuplicates([1, 2, 2, 3, 1]));
