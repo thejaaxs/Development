@@ -12,9 +12,24 @@ console.log(insertAtIndex([10, 20, 30], 1, 15));
 
 // Remove All Duplicates from Array
 
-function removeDuplicates(arr) { 
+function removeDuplicates(arr) {
     return [...new Set(arr)];
 }
 console.log(removeDuplicates([1, 2, 2, 3, 1]));
 
 // Remove All Instances of a Given Value
+function removeAllInstances(arr, value) {
+    return arr.filter(item =>
+        item !== value
+    );
+}
+console.log(removeAllInstances([1, 2, 3, 2, 4], 2));
+
+// Insert Element in Sorted Array
+function insertElementInSortedArray(arr, value) {
+    let index = arr.findIndex(e => e > value);
+    if (index === -1) index = arr.length;
+    arr.splice(index, 0, value);
+    return arr;
+}
+console.log(insertElementInSortedArray([10, 20, 30], 25));
