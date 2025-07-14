@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Remove Last Element From a List when Button is Clicked</title>
+    <meta name="description" content="Contains the Removing From the List">
+</head>
+
+<body>
+    <ul id="myList">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+    <button id="myBtn">Remove Element</button>
+    <script>
+        document.getElementById("myBtn").addEventListener("click", function () {
+            const list = document.getElementById("myList");
+            list.lastElementChild.remove();
+        })
+    </script>
+</body>
+
+</html>

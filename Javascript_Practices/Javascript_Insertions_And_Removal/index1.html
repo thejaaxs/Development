@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Working With DOM's</title>
+    <meta name="description" content="Contains the AppendChild Use">
+</head>
+
+<body>  
+    <ul id="myList">
+        <li>Item A</li>
+    </ul>
+    <script>
+        const ul = document.getElementById("myList");
+        const li = document.createElement("li");
+        li.textContent = "Item B";
+        ul.appendChild(li); // To Add the child !
+
+        const li2 = document.querySelector("li");
+        li2.remove();
+    </script>
+</body>
+
+</html>
