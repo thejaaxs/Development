@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title></title>
+    <meta name="description" content="Contains the Toggle Paragraphs in a Section">
+</head>
+
+<body>
+    <button id="addPara">Add Paragraph</button>
+    <button id="removePara">Remove Paragraph</button>
+    <div id="paraContainer"></div>
+    <script>
+        document.getElementById("addPara").addEventListener("click", () => {
+            const para = document.createElement("p");
+            para.textContent = "Paragraph Added !";
+            document.getElementById("paraContainer").appendChild(para);
+        });
+        document.getElementById("removePara").addEventListener("click", () => {
+            const paraC = document.getElementById("paraContainer");
+            paraC.lastElementChild.remove();
+        });
+    </script>
+</body>
+
+</html>
