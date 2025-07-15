@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Add a New List Item on Button Click</title>
+    <meta name="description" content="Contains the Add a New List Item on Button Click">
+</head>
+
+<body>
+    <ul id="myList"></ul>
+    <button id="myBtn">Add List !</button>
+    <script>
+        document.getElementById("myBtn").addEventListener("click", function () {
+            const li = document.createElement("li");
+            li.textContent = "New List";
+            document.getElementById("myList").appendChild(li);
+        });
+    </script>
+</body>
+
+</html>
