@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Click To Remove Element</title>
+    <meta name="description" content="Contains the Click to Remove Elements">
+</head>
+
+<body>
+    <ul id="clickRemoveList">
+        <li>Item A</li>
+        <li>Item B</li>
+        <li>Item C</li>
+        <li>Item D</li>
+    </ul>
+    <script>
+        const items = document.querySelectorAll("#clickRemoveList li");
+        items.forEach(items => {
+            items.addEventListener("click", () => {
+                items.remove();
+            });
+        });
+    </script>
+</body>
+
+</html>
