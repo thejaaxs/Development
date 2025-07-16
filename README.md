@@ -16,4 +16,4 @@
   - Deploy a full-stack app.
   - Implement authentication.
  
-# Thanks this Sigma Web Development Course ! 
+# Thanks to this Sigma Web Development Course ! 
