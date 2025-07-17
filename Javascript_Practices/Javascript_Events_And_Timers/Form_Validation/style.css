@@ -1,3 +1,8 @@
-.formError {
+body.dark {
+    background-color: #222;
+    color:white;
+}
+
+#formError {
     color: red;
 }
