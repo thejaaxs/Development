@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Count Button's Click</title>
+    <meta name=description content="Contains the Count Number Of times the buttons clicked">
+</head>
+
+<body>
+    <button id="myBtn">Click Me</button>
+    <p id="output"></p>
+    <script>
+        let count = 0;
+        document.getElementById("myBtn").addEventListener("click", () => {
+            count++;
+            const para = document.getElementById("output");
+            para.innerText = `Number Of Times Button Pressed : ${count} Times`;
+        });
+    </script>
+</body>
+
+</html>
