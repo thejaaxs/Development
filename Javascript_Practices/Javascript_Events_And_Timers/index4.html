@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Form Validation</title>
+    <meta name="description" content="Contains the Form Validation">
+</head>
+
+<body>
+    <form id="myForm">
+        <input type="text" id="name" placeholder="Enter Your Name">
+        <input type="email" id="email" placeholder="Enter Your Email">
+        <button type="submit">Submit</button>
+        <p id="formError" style="color:red;"></p>
+    </form>
+    <script>
+        document.getElementById("myForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const error = document.getElementById("formError");
+            if (!name || !email)
+                error.textContent = "Both Fields Are Mandatory";
+            else
+                error.textContent = "Submitted Successfully";
+        });
+    </script>
+</body>
+
+</html>
