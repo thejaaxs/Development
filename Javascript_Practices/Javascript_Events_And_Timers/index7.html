@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Event Delegation For List Items</title>
+    <meta name="description" content="Contains the Event Delegation For List Items">
+</head>
+
+<body>
+    <ul id="list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <script>
+        // Note that tagName is always UpperCase 
+        document.getElementById("list").addEventListener("click", function (e) {
+            // e.preventDefault();
+            if (e.target.tagName === "LI") {
+                alert("Clicked : " + e.target.textContent);
+            }
+        });
+    </script>
+</body>
+
+</html>
