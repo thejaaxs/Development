@@ -1,0 +1,46 @@
+<!-- element.addEventListener("event",function()) -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listeners And Timers</title>
+    <meta name="description" content="Contains the Event Listeners And Timers">
+</head>
+
+<body>
+    <!-- <button id="myBtn">Click Me</button> -->
+    <div id="outer">
+        <button id="inner">Click Me</button>
+    </div>
+    <script>
+        // document.getElementById("myBtn").addEventListener("click", function () {
+        //     alert("Button Clicked !");
+        // })
+
+        document.getElementById("outer").addEventListener("click", function () {
+            console.log("Outer DIV Clicked !");
+        });
+
+        document.getElementById("inner").addEventListener("click", function () {
+            console.log("Inner Button Clicked !");
+        });
+
+        // Set Timeout 
+        console.log("Start")
+        setTimeout(() => {
+            console.log("This runs after 2 sec !");
+        }, 2000)
+        console.log("End");
+
+        let count = 0;
+        let interValid = setInterval(() => {
+            console.log("Repeated : " + (++count));
+            if (count === 20) clearInterval(interValid);
+        }, 1000);
+    </script>
+</body>
+
+</html>
