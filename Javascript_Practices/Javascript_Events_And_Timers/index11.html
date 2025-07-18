@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Digital Clock</title>
+    <meta name="description" content="Contains the Digital Clock">
+</head>
+
+<body>
+    <h2 id="clock"></h2>
+    <script>
+        setInterval(function () {
+            const now = new Date();
+            // document.getElementById("clock").textContent = "Date is : " + now.toLocaleDateString();
+            document.getElementById("clock").textContent = "Time is : " + now.toLocaleTimeString();
+        }, 1000)  
+    </script>
+</body>
+
+</html>
