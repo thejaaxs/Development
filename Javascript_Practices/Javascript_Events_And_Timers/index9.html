@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Show Notification After Delay</title>
+    <meta name="description" content="Contains the Show Notification After Delay">
+</head>
+
+<body>
+    <button id="myBtn">Click Me !</button>
+    <p id="message" style="display:none;">Thanks For Clicking Me !</p>
+    <script>
+        document.getElementById("myBtn").addEventListener("click", () => {
+            setTimeout(function () {
+                document.getElementById("message").style.display = "block";
+            }, 2000);
+        })
+    </script>
+</body>
+
+</html>
