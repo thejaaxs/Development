@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Start / Stop Random Color Changer</title>
+    <meta name="description" content="Contains the Start / Stop Random Color Changer">
+</head>
+
+<body>
+    <button onclick="startColorChange() ">Start !</button>
+    <button onclick="stopColorChange()">Stop !</button>
+    <button onclick="resetColor()">Reset !</button>
+    <script>
+        let interval;
+        function startColorChange() {
+            interval = setInterval(() => {
+                document.body.style.background = `hsl(${Math.random() * 360},50%,70%)`;
+            }, 1000);
+        }
+        function stopColorChange() {
+            clearInterval(interval);
+        }
+        function resetColor() {
+            document.body.style.background = "white";
+        }
+    </script>
+</body>
+
+</html>
