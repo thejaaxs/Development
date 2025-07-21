@@ -10,7 +10,7 @@
         body {
             background-color: #001a00;
             color: #00ff00;
-            font-family: 'Courier New', #00ff00;
+            font-family: 'Courier New';
             padding: 20px;
         }
 
@@ -66,7 +66,7 @@
                 terminal.appendChild(line);
 
                 let delay = Math.floor(1 + 6 * Math.random());
-                await new Promise((resolve, reject) => ssetTimeout(rsesolve, delay * 1000));
+                await new Promise((resolve, reject) => ssetTimeout(resolve, delay * 1000));
 
                 line.classList.remove("blinking-dots");
                 line.textContent += "... Done !";
