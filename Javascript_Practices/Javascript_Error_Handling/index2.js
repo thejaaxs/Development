@@ -104,3 +104,18 @@ function validateForm(username, email) {
 console.log(validateForm("Thejas", "abcgmail.com"));
 
 // Safely Access Nested Object Properties
+
+const data = {
+    user: {
+        profile: {
+            name: "Thejas"
+        }
+    }
+};
+
+try {
+    const age = data.user.profile.age.value; // throws error ( since undefined )
+    console.log("Age is " + age);
+} catch (error) {
+    console.log("Error : " + error.message);
+}
