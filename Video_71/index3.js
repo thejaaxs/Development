@@ -28,3 +28,11 @@ async function brewCoffee(coffeeType) {
 
 let ordered = await brewCoffee("Cappuchino");
 console.log(ordered);
+
+// Local Storage
+
+function saveNoteToLocalStorage(note) {
+    const notes = JSON.parse(localStorage.getItem("note") || []);
+    notes.push(note);
+    localStorage.setItem('Note', JSON.stringify(notes));
+}
