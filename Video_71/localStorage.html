@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Local Storage Problems</title>
+    <meta name="description" content="Contains the Local Storage">
+</head>
+
+<body>
+    <button id="button">Add Note</button>
+    <div></div>
+    <script>
+        // if (localStorage.getItem("Name")) {
+        //     a = localStorage.getItem("name")
+        //     document.write("Welcome " + a);
+        // }
+        // else {
+        //     let a = prompt("Enter Your Name : ");
+        //     document.write("Hello " + a);
+        //     localStorage.setItem("Name", a);
+        // }
+        // let c = {
+        //     "Thejas": 1,
+        //     "Aman": 2,
+        //     "Charith": 3
+        // }
+        // localStorage.setItem("Object",JSON.stringify(c));
+
+        function saveNoteToLocalStorage(note) {
+            localStorage.setItem("Note", note);
+        }
+        let note = localStorage.getItem("note");
+        if (note) {
+            document.querySelector("div").textContent = note;
+        }
+        document.querySelector("button").addEventListener("click", () => {
+            let note = prompt("Enter the Note");
+            saveNoteToLocalStorage(note);
+            document.querySelector("div").textContent = note;
+        })
+    </script>
+</body>
+
+</html>
