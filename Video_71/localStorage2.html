@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Local Storage 2</title>
+    <meta name="description" content="Contains the Local Storage (AuthToken)">
+</head>
+
+<body>
+    <script>
+        function setAuth(token) {
+            const expiration = Date.now() + (24 * 60 * 60 * 1000);
+            localStorage.setItem("Auth-Token", JSON.stringify({
+                token,
+                Expires: expiration
+            }))
+        }
+        setAuth("Mathematics"); 
+    </script>
+</body>
+
+</html>
