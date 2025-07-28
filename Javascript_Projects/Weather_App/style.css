@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(to right, lightblue, lightgreen);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    height: 90vh;
+    font-family: Arial, sans-serif;
+}
+
+.weather {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input[type='text'] {
+    padding: 20px;
+    border: none;
+    margin-bottom:20px;
+    margin-right:10px;
+    font-size:16px;
+}
+
+button {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+    padding:10px;
+    margin-bottom:20px;
+    cursor:pointer;
+    border:none;
+    background: linear-gradient(to right, lightgreen, rgb(75, 248, 1))
+}
