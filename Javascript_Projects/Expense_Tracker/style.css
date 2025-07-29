@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(to right, black, rgb(228, 64, 64));
+    padding: 30px;
+    font-family: Arial;
+}
+
+.container {
+    background: linear-gradient(to right, white, grey);
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    text-align: center;
+}
+
+input,
+select,
+button {
+    margin: 5px;
+    width: 90%;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    width: 70%;
+    background: linear-gradient(to left, lightgrey, grey);
+    display: flex;
+    text-align: center;
+    margin-left: 30px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.income {
+    color: green;
+}
+
+.expense {
+    color: red;
+}
