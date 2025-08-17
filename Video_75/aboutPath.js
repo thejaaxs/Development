@@ -13,3 +13,12 @@ console.log(path.extname(myPath));
 
 let myPath1 = "D:\\Development\\Video_75\\main.js";
 console.log(path.dirname(myPath1));
+
+// The Base name 
+
+let myPath2 = "D:\\Development\\Video_75\\main.js";
+console.log(path.basename(myPath2));
+
+// Joining in Path
+let myPath3 = "D:\\Development\\Video_75";
+console.log(path.join("D:\\Development\\Video_75", "\\Thejas.js"));
