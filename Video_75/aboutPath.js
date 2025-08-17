@@ -10,3 +10,6 @@ console.log(path.extname(myPath));
 
 // The base name is the file name in the path module !
 // The Dir Name and also join the path !
+
+let myPath1 = "D:\\Development\\Video_75\\main.js";
+console.log(path.dirname(myPath1));
