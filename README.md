@@ -1,5 +1,5 @@
 # 🚀 Development Roadmap !
- 
+
 ## 🔹 Phase 1: Fundamentals
 ### ✅ Goal: Build a strong foundation in Web Development & JavaScript. 
 - **Frontend**: HTML, CSS, JS (ES6+), TypeScript transition.  
