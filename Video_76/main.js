@@ -1,11 +1,18 @@
-const { createServer } = require('node:http');
-const hostname = '127.0.0.1';
-const port = 3000;
-const server = createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/html');
-  res.end('Hello <h1> Thejas </h1>');
+const express = require('express')
+const app = express()
+const port = 3000
+
+// Middleware to log every request
+app.use((req, res, next) => {
+  console.log(`${req.method} ${req.url}`);
+  next();
 });
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
+
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
+ 
