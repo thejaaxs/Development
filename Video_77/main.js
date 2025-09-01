@@ -1,12 +1,13 @@
 const express = require('express')
 const blog = require('./routes/blog')
-
+const shop = require('./routes/blog')
 
 const app = express()
 const port = 3000
 
 app.use(express.static('public'))
 app.use('/blog', blog)
+app.use('/shop',shop)
 
 // to check the get request , we can write in console !
 app.get('/', (req, res) => {

@@ -10,6 +10,16 @@ const router = express.Router()
 
 // router.use(timeLog)
 
+// this is for the shop
+
+router.get('/', (req, res) => {
+    res.send("Hello Shop Blog !");
+})
+
+router.get('/about', (req, res) => {
+    res.send("Hello About Shop Blog !");
+})
+
 // define the home page route
 router.get('/', (req, res) => {
     res.send('Blogs home page')
