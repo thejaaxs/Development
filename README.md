@@ -1,4 +1,4 @@
-# 🚀 Development Roadmap !
+# 🚀 Development Roadmap ! 
 
 ## 🔹 Phase 1: Fundamentals
 ### ✅ Goal: Build a strong foundation in Web Development & JavaScript. 
@@ -16,4 +16,4 @@
   - Deploy a full-stack app.
   - Implement authentication.
  
-# Thanks to this Sigma Web Development Course ! 
+# Thanks to this Sigma Web Development Course !
