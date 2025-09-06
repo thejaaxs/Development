@@ -15,4 +15,4 @@ db.getCollection('Courses').insertMany([
 ]
 );
 
-console.log(`DataBase Content Inserted !`); 
+console.log(`DataBase Content Inserted !`);  
