@@ -64,4 +64,4 @@ console.log(db)
 // db.Courses.updateMany({Price:0},{$set:{Price:1000}});
 
 db.Courses.deleteOne({Price:100});
-db.Courses.deleteMany({Price:1000});
+db.Courses.deleteMany({Price:1000}); 
