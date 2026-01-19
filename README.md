@@ -6,7 +6,7 @@
 - **Backend**: Node.js, Express.js, SQL (PostgreSQL), NoSQL (MongoDB).
 - **Milestones** 
   - Build & deploy 2-3 small projects.
-  - Set up a REST API.
+  - Set up a REST API. 
   
 ## 🔹 Phase 2: Full-Stack Development
 ### ✅ Goal: Deep dive into MERN stack & real-world applications~
@@ -16,4 +16,4 @@
   - Deploy a full-stack app.
   - Implement authentication.
  
-# Thanks to this Sigma Web Development Course !
+# Thanks to this Sigma Web Development Course ! 
