@@ -14,6 +14,6 @@
 - **Frontend**: React.js, Next.js (SSR, API routes), Tailwind CSS, Auth (NextAuth.js).
 - **Milestones**  
   - Deploy a full-stack app.
-  - Implement authentication.
+  - Implement authentication
  
 # Thanks to this Sigma Web Development Course !
